@@ -1,0 +1,79 @@
+/*--variable button--*/
+/* Animation */
+header {
+  height: 70px;
+  background-color: #2980b9;
+  border: 1px solid #2376ae;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center; }
+  header .wraper-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between; }
+    header .wraper-header .logo {
+      color: #fff;
+      font-size: 25px; }
+    header .wraper-header .form-user {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      align-items: center; }
+      header .wraper-header .form-user li {
+        color: #fff;
+        margin-left: 5px; }
+        header .wraper-header .form-user li a {
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          header .wraper-header .form-user li a:hover {
+            color: yellow;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+
+nav {
+  background-color: #3498db;
+  height: 35px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-bottom: 10px; }
+  nav .wraper-nav .lists {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    nav .wraper-nav .lists .item {
+      margin-right: 10px; }
+      nav .wraper-nav .lists .item a {
+        color: #fff; }
+
+/*# sourceMappingURL=header.css.map */

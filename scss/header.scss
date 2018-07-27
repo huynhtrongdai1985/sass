@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixins";
+header{
+	height: 70px;
+	background-color: $color-blue;
+	border: 1px solid $color-border-header;
+	@include flexbox;
+	@include align-items(center);
+	.wraper-header{
+		@include flexbox;
+		@include justify-content(space-between);
+		.logo{
+			color: #fff;
+			font-size: 25px;
+		}
+		.form-user{
+			@include flexbox;
+			@include align-items(center);
+			li{
+				color: #fff;
+				margin-left: 5px;
+				a{
+					@include transition(all 0.3s ease);
+					&:hover{
+						color: yellow;
+						@include transition(all 0.3s ease);
+					}
+				}
+			}
+		}
+	}
+}
+nav{
+	background-color: $color-nav;
+	height: 35px;
+	@include flexbox;
+	@include align-items(center);
+	margin-bottom: 10px;
+	.wraper-nav{
+		.lists{
+			@include flexbox;
+			.item{
+				margin-right: 10px;
+				a{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+//nếu gọi lại mixins n-columns thì nằm trong một cái thành phần cha khác
+// .other{
+// 	@include n-columns(100px,  10px, true, 2);
+// }

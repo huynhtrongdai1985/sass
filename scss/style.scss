@@ -55,45 +55,6 @@ a{
 	overflow: auto;
 	background-color: #fff;
 }
-header{
-	height: 70px;
-	background-color: $color-blue;
-	border: 1px solid $color-border-header;
-	@include flexbox;
-	@include align-items(center);
-	.wraper-header{
-		@include flexbox;
-		@include justify-content(space-between);
-		.logo{
-			color: #fff;
-			font-size: 25px;
-		}
-		.form-user{
-			@include flexbox;
-			@include align-items(center);
-			li{
-				color: #fff;
-				margin-left: 5px;
-			}
-		}
-	}
-}
-.wraper-nav{
-	margin-bottom: 20px;
-	@include n-columns(200px,  10px, true, 2);
-	.lists{
-		
-		.item{
-			background-color: #e0ddd5;
-		    color: #171e42;
-		    @include box-sizing(border-box);
-		    padding: 10px;
-		}
-	}
-}
-.other{
-	@include n-columns(100px,  10px, true, 8);
-}
 
 @media (min-width: 750px){
 	html{
